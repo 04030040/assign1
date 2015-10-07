@@ -26,7 +26,7 @@ size (640, 480);
 void draw() {
 //background(0);
 int x = 0;
-println (x);
+
 //ellipse(100, 100, 80, 60);
 PImage backgroundImg1=loadImage("img/bg1.png");
 PImage backgroundImg2=loadImage("img/bg2.png");
@@ -41,7 +41,7 @@ stroke(0,255,0);
 //line (fighterPosX-20, fighterPosY+25, fighterPosX-10, fighterPosY+25); //bullet
 PImage hpImg=loadImage("img/hp.png");
 image(hpImg,10,10);
-println(hpValue);
+println("hpValue=", hpValue);
 stroke(0,0,50);fill(0,0,50);
 rect(21, 15, 190, 20); //full hp == 190 hp
 stroke(0,0,200);fill(0,0,200);
@@ -49,6 +49,8 @@ if (hpValue<40){stroke(250,20,20);fill(250,20,20);}
 rect(21, 15, hpValue, 20);
 PImage treasureImg = loadImage("img/treasure.png");
 image (treasureImg, treasurePosX, treasurePosY);
+println("treasurePosX=", treasurePosX);
+println("treasurePosY=", treasurePosY);
 PImage enemyImg = loadImage("img/enemy.png");
 image (enemyImg, enemy1PosX++, enemy1PosY);
 
