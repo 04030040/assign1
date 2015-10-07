@@ -48,6 +48,7 @@ stroke(0,0,200);fill(0,0,200);
 if (hpValue<40){stroke(250,20,20);fill(250,20,20);}
 rect(21, 15, hpValue, 20);
 PImage treasureImg = loadImage("img/treasure.png");
+image (treasureImg, 100, 100);
 image (treasureImg, treasurePosX, treasurePosY);
 println("treasurePosX=", treasurePosX);
 println("treasurePosY=", treasurePosY);
