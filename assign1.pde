@@ -47,13 +47,14 @@ rect(21, 15, 190, 20); //full hp == 190 hp
 stroke(0,0,200);fill(0,0,200);
 if (hpValue<40){stroke(250,20,20);fill(250,20,20);}
 rect(21, 15, hpValue, 20);
+
+PImage enemyImg = loadImage("img/enemy.png");
+image (enemyImg, enemy1PosX++, enemy1PosY);
 PImage treasureImg = loadImage("img/treasure.png");
 image (treasureImg, 100, 100);
 image (treasureImg, treasurePosX, treasurePosY);
 println("treasurePosX=", treasurePosX);
 println("treasurePosY=", treasurePosY);
-PImage enemyImg = loadImage("img/enemy.png");
-image (enemyImg, enemy1PosX++, enemy1PosY);
 
 // int runtimer=1;
 if (enemy1PosX>600){
