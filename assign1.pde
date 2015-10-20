@@ -47,7 +47,7 @@ image (enemyImg, enemy1PosX++, enemy1PosY);
 
 
 image (treasureImg, 100, 100);
-//image (treasureImg, treasurePosX, treasurePosY);
+image (treasureImg, treasurePosX, treasurePosY);
 println("treasurePosX=", treasurePosX);
 println("treasurePosY=", treasurePosY);
 
