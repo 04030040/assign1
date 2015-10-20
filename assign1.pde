@@ -35,6 +35,14 @@ image (backgroundImg2, bg2PosX++, 0);
 if (bg1PosX>641){bg1PosX=-640;};
 if (bg2PosX>641){bg2PosX=-640;};
 
+PImage enemyImg = loadImage("img/enemy.png");
+image (enemyImg, enemy1PosX++, enemy1PosY);
+PImage treasureImg = loadImage("img/treasure.png");
+image (treasureImg, 100, 100);
+//image (treasureImg, treasurePosX, treasurePosY);
+println("treasurePosX=", treasurePosX);
+println("treasurePosY=", treasurePosY);
+
 PImage fighterimg = loadImage("img/fighter.png");
 image(fighterimg, fighterPosX, fighterPosY);
 stroke(0,255,0);
@@ -48,13 +56,7 @@ stroke(0,0,200);fill(0,0,200);
 if (hpValue<40){stroke(250,20,20);fill(250,20,20);}
 rect(21, 15, hpValue, 20);
 
-PImage enemyImg = loadImage("img/enemy.png");
-image (enemyImg, enemy1PosX++, enemy1PosY);
-PImage treasureImg = loadImage("img/treasure.png");
-image (treasureImg, 100, 100);
-//image (treasureImg, treasurePosX, treasurePosY);
-println("treasurePosX=", treasurePosX);
-println("treasurePosY=", treasurePosY);
+
 
 // int runtimer=1;
 if (enemy1PosX>600){
