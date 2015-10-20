@@ -37,6 +37,9 @@ if (bg2PosX>641){bg2PosX=-640;};
 
 PImage enemyImg = loadImage("img/enemy.png");
 image (enemyImg, enemy1PosX++, enemy1PosY);
+
+PImage treasureImg = loadImage("img/treasure.png");
+
 PImage treasureImg = loadImage("img/treasure.png");
 image (treasureImg, 100, 100);
 //image (treasureImg, treasurePosX, treasurePosY);
