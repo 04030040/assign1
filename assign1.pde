@@ -21,7 +21,7 @@ size (640, 480);
 //println (treasurePosX);
 //println (treasurePosY);
 //println (enemy1PosY);
-
+PImage treasureImg = loadImage("img/treasure.png");
 }
 void draw() {
 //background(0);
@@ -50,7 +50,7 @@ rect(21, 15, hpValue, 20);
 
 PImage enemyImg = loadImage("img/enemy.png");
 image (enemyImg, enemy1PosX++, enemy1PosY);
-PImage treasureImg = loadImage("img/treasure.png");
+
 image (treasureImg, 100, 100);
 image (treasureImg, treasurePosX, treasurePosY);
 println("treasurePosX=", treasurePosX);
