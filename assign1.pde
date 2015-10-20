@@ -14,19 +14,19 @@ int bg1PosX=0;
 // int bg1PosY=0;
 int bg2PosX=-641;
 // int bg2PosY=0;
-
-
-void setup() {
-size (640, 480);
-//println (treasurePosX);
-//println (treasurePosY);
-//println (enemy1PosY);
 PImage backgroundImg1=loadImage("img/bg1.png");
 PImage backgroundImg2=loadImage("img/bg2.png");
 PImage enemyImg = loadImage("img/enemy.png");
 PImage treasureImg = loadImage("img/treasure.png");
 PImage fighterimg = loadImage("img/fighter.png");
 PImage hpImg=loadImage("img/hp.png");
+
+void setup() {
+size (640, 480);
+//println (treasurePosX);
+//println (treasurePosY);
+//println (enemy1PosY);
+
 
 }
 void draw() {
