@@ -56,14 +56,14 @@ image(fighterimg, fighterPosX, fighterPosY);
 stroke(0,255,0);
 //line (fighterPosX-20, fighterPosY+25, fighterPosX-10, fighterPosY+25); //bullet
 
-image(hpImg,10,10);
+
 println("hpValue=", hpValue);
 stroke(0,0,50);fill(0,0,50);
 rect(21, 15, 190, 20); //full hp == 190 hp
 stroke(0,0,200);fill(0,0,200);
 if (hpValue<40){stroke(250,20,20);fill(250,20,20);}
 rect(21, 15, hpValue, 20);
-
+image(hpImg,10,10);
 
 
 // int runtimer=1;
