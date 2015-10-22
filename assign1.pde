@@ -31,19 +31,19 @@ size (640, 480);
 //println (treasurePosY);
 //println (enemy1PosY);
 
-
-
-}
-void draw() {
-//background(0);
-int x = 0;
-
 backgroundImg1=loadImage("img/bg1.png");
 backgroundImg2=loadImage("img/bg2.png");
 enemyImg = loadImage("img/enemy.png");
 treasureImg = loadImage("img/treasure.png");
 fighterimg = loadImage("img/fighter.png");
 hpImg=loadImage("img/hp.png");
+
+}
+void draw() {
+//background(0);
+int x = 0;
+
+
 
 //ellipse(100, 100, 80, 60);
 
